@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Sono', monospace;
+    font-weight: 500;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#root {
+    height: 200vh;
+    background: #000000;
+}
+
+.welcomeContainer {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* entire welcome page */
+.welcome {
+    height: 269px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* the welcome text */
+.welcomeText {
+    width: 1100px;
+    height: 116px;
+
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+
+.links {
+    width: 1100px;
+    height: 86px;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.link {
+    width: 260px;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+}
+
+#galleryLink:hover {
+    color:#FF8CCA;
+}
+
+#resumeLink:hover {
+    color:#BEFF33;
+}
+
+#funfactsLink:hover {
+    color:#98B5FF;
+}
